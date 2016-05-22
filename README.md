@@ -12,6 +12,6 @@ uses a database called notes
 
 and a table called posts
 
-  CREATE TABLES posts(
+>  CREATE TABLES posts(
   id SERIAL PRIMARY KEY,
   post TEXT NOT NULL);
