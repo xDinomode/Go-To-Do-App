@@ -1,11 +1,17 @@
 # Example of a to-do app written in Go and PostgreSQL.
 
-1. go get github.com/lib/pq
+Using the [pq driver](https://github.com/lib/pq)
 
-2. sudo apt-get install postgresql postgresql-contrib
+>  go get github.com/lib/pq
 
-3. CREATE DATABASE notes 
+You should also have Postgresql installed
 
-4. CREATE TABLES posts(
+uses a database called notes 
+
+> CREATE DATABASE notes 
+
+and a table called posts
+
+  CREATE TABLES posts(
   id SERIAL PRIMARY KEY,
   post TEXT NOT NULL);
